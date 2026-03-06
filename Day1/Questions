@@ -1,0 +1,22 @@
+Create a flowchart AND write pseudocode for each:
+1. Leap Year Check Input a year. Find whether it is a leap year or not.
+
+Leap year if: divisible by 4, AND (not divisible by 100 OR divisible by 400)
+2. Sum of Two Numbers Take two numbers as input and print their sum.
+
+3. Multiplication Table Take a number as input. Print its multiplication table (1 to 10).
+
+4. HCF and LCM Take 2 numbers as input. Find and print both their HCF and LCM.
+
+Hint: LCM(a, b) = (a × b) / HCF(a, b)
+5. Sum Until 'x' Keep taking numbers as input till the user enters x. After that, print the sum of all numbers entered.
+
+💡 Pseudocode example for Q2:
+
+START
+  READ number1
+  READ number2
+  sum = number1 + number2
+  PRINT sum
+END
+💡 Flowchart shapes: Oval = start/end, Rectangle = action, Diamond = decision, Arrows = flow

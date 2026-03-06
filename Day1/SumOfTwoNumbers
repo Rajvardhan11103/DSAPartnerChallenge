@@ -1,0 +1,9 @@
+2. Sum of Two Numbers Take two numbers as input and print their sum.
+
+// Pseudocode:
+START
+ READ input1
+ READ input2
+ SUM = input1 + input2
+ PRINT SUM
+END

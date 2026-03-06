@@ -1,0 +1,24 @@
+4. HCF and LCM Take 2 numbers as input. Find and print both their HCF and LCM.
+
+// Pseudocode:
+
+START
+  READ number1
+  READ number2
+
+  // Calculate HCF using Euclidean algorithm
+  a = number1
+  b = number2
+  WHILE b != 0
+    temp = b
+    b = a % b
+    a = temp
+  END WHILE
+  HCF = a
+
+  // Calculate LCM using the relationship between HCF and LCM
+  LCM = (number1 * number2) / HCF
+
+  PRINT "HCF: " + HCF
+  PRINT "LCM: " + LCM
+END

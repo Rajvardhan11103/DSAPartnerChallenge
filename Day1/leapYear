@@ -1,0 +1,12 @@
+1. Leap Year Check Input a year. Find whether it is a leap year or not.
+
+💡 Pseudocode
+
+START
+ READ YEAR
+  IF(YEAR % 4 == 0 AND (YEAR % 100 != 0 OR YEAR % 400 == 0))
+    PRINT "LEAP YEAR"
+      ELSE
+    PRINT "NOT A LEAP YEAR"
+END
+

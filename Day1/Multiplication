@@ -1,0 +1,11 @@
+3. Multiplication Table Take a number as input. Print its multiplication table (1 to 10).
+
+// Pseudocode:
+
+START
+  READ number
+  FOR i FROM 1 TO 10
+    product = number * i
+    PRINT number + " x " + i + " = " + product
+  END FOR
+END
